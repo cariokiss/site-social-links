@@ -8,18 +8,31 @@ body {
   background-size: cover;
   */
 
-  /*encurtando o código*/
+  /*encurtando o código acima*/
 
   /*background: color image repeat position/size*/
   background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }
 
-/* ID pai = centralizar imagem*/
+/*Fonte e cor da letra*/
+body * {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+
+/* ID pai = centralizar*/
 #profile {
   text-align: center;
 }
 
-/* ID filho = definir tamanho*/
+/* ID filho = definições da imagem*/
 #profile img {
   width: 112px;
+}
+
+/* ID filho = definições da letra*/
+#profile p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 }
