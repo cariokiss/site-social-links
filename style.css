@@ -1,0 +1,25 @@
+body {
+  /*fundo adicionado e preenchido/*
+
+  /*
+  background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  */
+
+  /*encurtando o código*/
+
+  /*background: color image repeat position/size*/
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+/* ID pai = centralizar imagem*/
+#profile {
+  text-align: center;
+}
+
+/* ID filho = definir tamanho*/
+#profile img {
+  width: 112px;
+}
